@@ -9,53 +9,53 @@
 </head>
 
 <body>
-    <section>
-
-        <article>
-            <img src="smart-ui logo.png" alt="">
-            <h1>HOME</h1>
-            <h1>Our team</h1>
-            <h1>Portfolio</h1>
+    <section class="w-[90%] m-auto">
+        <article class="flex justify-between items-center">
+            <article class="md:flex gap-5">
+                <img src="smart-ui logo.png" alt="">
+                <h1 class="md:block xs:hidden">HOME</h1>
+                <h1 class="md:block xs:hidden">Our team</h1>
+                <h1 class="md:block xs:hidden">Portfolio</h1>
+            </article>
+            <article class="md:flex gap-5 xs:hidden">
+                <h1>UN</h1>
+                <h1>EN</h1>
+                <img src="whatsapp.png" alt="">
+                <img src="telergam.png" alt="">
+            </article>
         </article>
-        <article>
-            <h1>UN</h1>
-            <h1>EN</h1>
-            <img src="whatsapp.png" alt="">
-            <img src="telergam.png" alt="">
-        </article>
-        <article>
-            <article>
+        <article class="flex justify-between items-center">
+            <article class="w-[30%]">
                 <img src="button return message lime.png" alt="">
             </article>
-            <article>
-                <h1>We are Smart-UI.</h1>
-                <p>You deserve easy IT, to make it easy make it smart</p>
-                <button>GET stated</button>
-                <img src="Clutch.png" alt="">
-                <img src="upwork.png" alt="">
-                <img src="linkedIn.png" alt="">
-            </article>
-            <article>
-                <article style="background-image: url(Group\ 162560.png); background-repeat: no-repeat;">
-                    <img src="comp.png" alt="" class="w-[40%]">
-
+            <article class="w-[100%]">
+                <h1 class="md:text-[100px] xs:text-[40px]">We are Smart-UI.</h1>
+                <p class="mb-[50px]">You deserve easy IT, to make it easy make it smart</p>
+                <article class="md:flex gap-5 items-center mb-[50px]">
+                    <button class="p-3 bg-green-500  rounded-2xl text-white">GET stated</button>
+                    <img src="Clutch.png" alt="">
+                    <img src="upwork.png" alt="">
+                    <img src="linkedIn.png" alt="">
                 </article>
             </article>
-        </article>
-        <article class="flex justify-between">
+            <article class="md:block xs:hidden">
+                    <img src="comp.png" alt="" class="w-[40%]">
+                </article>
+            </article>
+        <article class="flex justify-between items-center">
             <img src="Scroll down button.png" alt="">
             <img src="chat Lime.png" alt="">
         </article>
     </section>
-    <section class="md:grid grid-cols-2">
+    <section class="md:grid grid-cols-2 bg-black text-white p-10 mb-[100px]">
         <article>
-            <h1>What We Do?</h1>
-            <p>By implementing modern Internet technologies, we help our Clients to achieve their goals and solve
+            <h1 class="text-[80px]">What We Do?</h1>
+            <p class="mb-[50px]">By implementing modern Internet technologies, we help our Clients to achieve their goals and solve
                 problems
                 effectively, striving to do it better than competitors do, and offering optimal effective solutions
                 taking
                 into account the interests of each Client, with sincere care and maximum possible attention.</p>
-            <button>Ask a question</button>
+            <button class="p-3 bg-green-500 rounded-2xl mb-[20px] md:w-[20%]">Ask a question</button>
             <img src="Arrow icons.png" alt="">
         </article>
         <article class="md:row-start-2 col-start-2">
@@ -68,23 +68,26 @@
             <h1>Find out more</h1>
         </article>
     </section>
-    <section>
+    <section class="md:flex w-[90%] m-auto">
         <article>
-            <h1>Tools We Use</h1>
+            <h1 class="text-[80px]">Tools We Use</h1>
             <p>Contact that lead developer and discuss technical points in detail</p>
-            <button>Contact the lead developer </button>
+            <button class="p-3 bg-green-400 rounded-2xl text-white">Contact the lead developer </button>
             <img src="Scroll down button.png" alt="">
         </article>
-        <article>
-            <img src="Markup.png" alt="">
-            <img src="UI-Framework.png" alt="">
+        <article class="md:flex">
+            <img src="Markup.png" alt="" class="xs:hidden md:block">
+            <img src="UI-Framework.png" alt="" class="md:block xs:hidden">
+            <img src="JavaScript.png" alt="" class="md:hidden">
         </article>
-        <img src="Arrow icons.png" alt="">
     </section>
-    <section class="grid grid-cols-2 grid-rows-7">
-        <h1>Strategy</h1>
-        <article class="flex w-[55%] gap-5 md:col-start-1">
-            <article class="flex gap-2">
+    <article class="justify-self-center mb-[100px]">
+        <img src="Arrow icons.png" alt="">
+    </article>
+    <section class="md:grid grid-cols-2 grid-rows-7 bg-black text-green-200 p-10 mb-[100px]">
+        <h1 class="text-[50px] text-white">Strategy</h1>
+        <article class="md:flex w-[80%] gap-5 md:col-start-1">
+            <article class="md:flex gap-2">
                 <h1>01</h1>
                 <h1>Strategy</h1>
             </article>
@@ -92,7 +95,7 @@
                 Latin literature from 45 BC, making it over 2000 years old.</p>
         </article>
 
-        <article class="flex w-[55%] gap-5 md:col-start-2 row-start-3">
+        <article class="flex w-[80%] gap-5 md:col-start-2 row-start-3 md:block xs:hidden">
             <article class="flex gap-2">
                 <h1>02</h1>
                 <h1>Design</h1>
@@ -101,7 +104,7 @@
                 Latin literature from 45 BC, making it over 2000 years old.</p>
         </article>
 
-        <article class="flex w-[55%] gap-5 md:col-start-1 row-start-4">
+        <article class="md:flex w-[80%] gap-5 md:col-start-1 row-start-4">
             <article class="flex gap-2">
                 <h1>03</h1>
                 <h1>Develope</h1>
@@ -110,7 +113,7 @@
                 Latin literature from 45 BC, making it over 2000 years old.</p>
         </article>
 
-        <article class="flex w-[55%] gap-5 md:col-start-2 row-start-5">
+        <article class="flex w-[80%] gap-5 md:col-start-2 row-start-5 md:block xs:hidden">
             <article class="flex gap-2 ">
                 <h1>04</h1>
                 <h1>Support</h1>
@@ -119,7 +122,7 @@
                 Latin literature from 45 BC, making it over 2000 years old.</p>
         </article>
 
-        <article class="flex w-[55%] gap-5 md:col-start-1 row-start-6">
+        <article class="md:flex w-[80%] gap-5 md:col-start-1 row-start-6">
             <article class="flex gap-2">
                 <h1>05</h1>
                 <h1>QA</h1>
@@ -128,7 +131,7 @@
                 Latin literature from 45 BC, making it over 2000 years old.</p>
         </article>
 
-        <article class="flex w-[55%] gap-5 md:col-start-2 row-start-7">
+        <article class="flex w-[80%] gap-5 md:col-start-2 row-start-7 md:block xs:hidden">
             <article class="flex gap-2">
                 <h1>06</h1>
                 <h1>Launching </h1>
@@ -137,88 +140,145 @@
                 Latin literature from 45 BC, making it over 2000 years old.</p>
         </article>
     </section>
-    <section>
+    <section class="w-[90%] m-auto">
         <article class="flex justify-between">
             <article>
-                <h1>MEET OxUR TEAM</h1>
+                <h1 class="text-[80px]">MEET OxUR TEAM</h1>
                 <p>Expert Team Member</p>
             </article>
             <img src="Graphic.png" alt="">
         </article>
         <article class="flex justify-between">
-            <img src="Klipkov.png" alt="">
+            <img src="Klipkov.png" alt="" class="md:block xs:hidden">
             <img src="Kozlov.png" alt="">
-            <img src="Gashkov.png" alt="">
+            <img src="Gashkov.png" alt="" class="md:block xs:hidden">
         </article>
-        <button>The whole team</button>
+<article class="justify-self-center">
+    
+    <button class="p-3 bg-green-400 text-white rounded-2xl mb-[40px]">The whole team</button>
+</article>
     </section>
-    <section>
-        <article class="flex justify-between">
-            <article>
-                <h1>Our Advantages</h1>
+    <section class="bg-black text-white mb-[100px] p-10">
+        <article class="md:flex justify-between">
+            <article class="md:w-[30%] mb-[60px]">
+                <h1 class="text-[50px]">Our Advantages</h1>
                 <p>We help to develop business, using complex modern effective it solutions, tools of web development
                     and Internet marketing.
                 </p>
             </article>
-            <img src="illustration.png" alt="" class="relative -z-10">
         </article>
-        <article class="flex">
-            <article class="bg-white rounded-2xl p-7 w-[20%]">
-                <h1 class="mb-[100px]">Individual Approach</h1>
+        <article class="flex gap-4 justify-center mb-[40px]">
+            <article class="bg-white  text-black rounded-2xl p-7 md:w-[20%] md:block xs:hidden">
+                <h1 class="mb-[100px] text-[30px]">Teamwork With Client</h1>
                 <p>After converting all requirements into product implementation, our software engineers work quickly
                     but smartly, using the full potential</p>
                 <br> <br> <br>
             </article>
-            <article class="bg-white rounded-2xl p-7 w-[20%]">
-                <h1 class="mb-[100px]">Individual Approach</h1>
+            <article class="bg-white text-black rounded-2xl p-7 md:w-[20%]">
+                <h1 class="mb-[100px] text-[30px]">Individual Approach</h1>
                 <p>After converting all requirements into product implementation, our software engineers work quickly
                     but smartly, using the full potential</p>
                 <br> <br> <br>
             </article>
-            <article class="bg-white rounded-2xl p-7 w-[20%]">
-                <h1 class="mb-[100px]">Individual Approach</h1>
+            <article class="bg-white  text-black rounded-2xl p-7 md:w-[20%] md:block xs:hidden">
+                <h1 class="mb-[100px] text-[30px]">Your Business Profitable!
+                </h1>
                 <p>After converting all requirements into product implementation, our software engineers work quickly
                     but smartly, using the full potential</p>
                 <br> <br> <br>
             </article>
-        </article>
-        <button>Review</button>
+            </article>
+            <article class="justify-self-center">
+                <button class="bg-green-400 p-3 rounded-2xl w-[100%] mb-[40px]">Review</button>
+            </article>
     </section>
-    <section class="flex">
-        <article>
-            <h1>Recent Works</h1>
+    <section class="md:flex p-10 bg-slate-300">
+        <article class="md:w-[20%]">
+            <h1 class="text-[80px]">Recent Works</h1>
             <p>We will help to develop your best project based on your idea.</p>
-            <button>View More Projects</button>
+            <button class="p-3 bg-green-500 rounded-3xl text-white w-[100%]">View More Projects</button>
         </article>
-        <article class="flex">
-            <img src="Cards THC.png" alt="">
-            <article>
+        <article class="md:flex">
+            <img src="Cards THC.svg" alt="" class="md:block xs:hidden">
                 <img src="Rose Wellness.png" alt="">
-                <img src="Arrow icons.png" alt="">
-            </article>
-            <img src="Cards THC.png" alt="">
+            <img src="Cards THC.png" alt="" class="md:block xs:hidden">
         </article>
     </section>
-    <section style="background-image: url(Frame\ background.png); background-repeat: no-repeat;">
-
+    <section style="background-image: url(Frame\ background.png); background-repeat: no-repeat; height: 100vh; " class="mb-[300px]">
         <section>
-            <h1>Clients Reviews.</h1>
-            <p>We help to develop business, using complex modern effective it solutions, tools of web development and
+            <article class="md:w-[60%] p-[100px]">
+            <h1 class="text-[40px]">Clients Reviews.</h1>
+            <p class="mb-[50px]">We help to develop business, using complex modern effective it solutions, tools of web development and
                 Internet marketing.</p>
-                <h1>Static HTML pages and email templates</h1>
-                <img src="star 4.8.png" alt="">
-                <p>"Working with Denys from SMART-UI it's straightforward. I provide the design - he provides the
-                    implementation. After a couple of iterations, the job was done. No unnecessary interactions or delays and
-                    communication is succinct and on the point. Overall I am happy with the experience and will be working with
-                    Denys and SMART-UI in the future."</p>
+            <h1 class="text-[40px]">Static HTML pages and email templates</h1>
+            <img src="star 4.8.png" alt="">
+            <p class="mb-[30px]">"Working with Denys from SMART-UI it's straightforward. I provide the design - he provides the
+                implementation. After a couple of iterations, the job was done. No unnecessary interactions or delays
+                and
+                communication is succinct and on the point. Overall I am happy with the experience and will be working
+                with
+                Denys and SMART-UI in the future."</p>
+            <h1 class="mb-[50px]">Review on Up work</h1>
+            <h1 class="text-[40px]">Looking for an expert NextJs developer</h1>
+            <img src="star 5.png" alt="">
+            <h1 class="mb-[30px]">"The team did a great job of completing the tasks with full satisfaction on time. We will work with them
+                again." </h1>
+                <article class="flex justify-between it">
                     <h1>Review on Up work</h1>
-                    <h1>Looking for an expert NextJs developer</h1>
-                    <img src="star 5.png" alt="">
-                    <h1>"The team did a great job of completing the tasks with full satisfaction on time. We will work with them again."    </h1>
-                    <h1>Review on Up work</h1>
-                </section>
-            </section>
+                    <img src="Arrow icons.png" alt="">
+                </article>
 
+            </article>
+        </section>
+    </section>
+    <section class="md:grid grid-cols-2 grid-rows-1 mt-[300px] bg-slate-300 p-10">
+        <article class="md:col-span-2">
+            <h1 class="text-[50px]">Frequently asked questions</h1>
+        </article>
+        <article>
+        <article class="w-[70%] bg-white p-5 rounded-2xl mb-[20px]">
+                <article class="flex justify-between " >
+                    <h1>Who did we work with?</h1>
+                    <button class="p-3 bg-green-400 rounded-2xl">-</button>
+                </article>
+                <p>Most of our clients are large financial organizations and companies. You can view the list of clients who
+                    have given permission to publish works in the Recent Works block</p>
+        </article>
+        <article class="flex justify-between p-6 bg-white w-[70%] rounded-2xl mb-[20px]">
+            <h1>    What services do we offer to clients?</h1>
+            <button>+</button>
+        </article>
+        <article class="flex justify-between p-6 bg-white w-[70%] rounded-2xl">
+            <h1>    What services do we offer to clients?</h1>
+            <button>+</button>
+        </article>
+        </article>
+         <article>
+            <article class="flex justify-between p-6 bg-white w-[70%] rounded-2xl mb-[20px]">
+                <h1>    What services do we offer to clients?</h1>
+                <button>+</button>
+            </article>
+            <article class="flex justify-between p-6 bg-white w-[70%] rounded-2xl mb-[20px]">
+                <h1>    What services do we offer to clients?</h1>
+                <button>+</button>
+            </article>
+            <article class="flex justify-between p-6 bg-white w-[70%] rounded-2xl">
+                <h1>    What services do we offer to clients?</h1>
+                <button>+</button>
+            </article>
+         </article>
+    </section>
+    <section style="background-image: url(FINAL\ CTA.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 100vh;">
+        <section>
+            <article class="text-white text-center">
+                <h1 class="text-[80px] ">Lets Get In Touch</h1>
+            <input type="text" placeholder="First name:" class="w-[40%] bg-black border-b-2 p-3" > <br> <br>
+            <input type="email" placeholder="E-mail adsress:" class="w-[40%] bg-black border-b-2 p-3"> <br> <br>
+            <input type="email" placeholder="Message:" class="w-[40%] bg-black border-b-2 p-3"> <br>
+            <button class="p-3  bg-green-400 rounded-2xl w-[20%] ">SUMBIT</button>
+        </article>
+    </section>
+</section>
 
 
 
